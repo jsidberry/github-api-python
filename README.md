@@ -12,3 +12,5 @@ Use a -u flag to set your username:
 or with the token (best to use env_vars)
 `$ curl -i -u "jsidberry:$token" https://api.github.com/users/jsidberry`
 
+List Repos
+`$ curl -i https://api.github.com/users/jsidberry/repos`
