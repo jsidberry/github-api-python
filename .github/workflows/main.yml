@@ -4,8 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: print greeting
-        run: echo "Hello, Juan!"
-      - name: print goodbye
-        run: echo "Bye-bye, now!"
-    
+      - name: example of multi-line commands
+        run: |
+            echo "Hello, Juan!"
+            echo "Bye-bye, now!"
